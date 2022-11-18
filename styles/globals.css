@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply block rounded border-gray-200 shadow-md;
+}
+
+.primary-btn {
+  @apply rounded bg-blue-500 px-4 py-1 shadow outline-none hover:bg-blue-600 active:bg-blue-700 text-white font-bold;
+}
